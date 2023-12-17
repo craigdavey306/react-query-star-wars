@@ -1,0 +1,60 @@
+:root {
+  --primary-color: #ffff57;
+  --primary-bkg-color: #222;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--primary-bkg-color);
+  color: #ddd;
+  text-align: center;
+}
+
+.App {
+  width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: var(--primary-color);
+  font-size: 4em;
+  letter-spacing: 2px;
+}
+
+button {
+  margin: 0 10px;
+  background: transparent;
+  border: 3px solid #ccc;
+  border-radius: 20px;
+  padding: 10px;
+  color: #ccc;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.content {
+  text-align: left;
+}
+
+.card {
+  padding: 0.5rem 1rem;
+  background: #1b1b1b;
+  margin: 1rem 0;
+  border-radius: 1.3rem;
+}
+
+.card p {
+  margin: 0.4rem 0;
+  color: #999;
+}
+
+.card h3 {
+  margin: 0.6rem 0;
+  color: var(--primary-color);
+}
